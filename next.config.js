@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  //It doesn't need the experimental object for the new version of the plugin
     swcPlugins: [["next-superjson-plugin", {}]]
   },
   images: {
